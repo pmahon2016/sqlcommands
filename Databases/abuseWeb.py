@@ -1,17 +1,17 @@
 import requests
-import re
 
 
+myipadd = "10.191.195.186"
 
-response = requests.get("https://www.abuseipdb.com/check/51.144.121.104/json?key=IoGutYJumuBDzJkWq54qR5Mzpltpg3JjAUQ32JSY&days=30")
+response = requests.get("https://www.abuseipdb.com/check/"+ myipadd + "/json?key=IoGutYJumuBDzJkWq54qR5Mzpltpg3JjAUQ32JSY&days=30")
 
-print(response.content)
+if "country" in str(response.content):
 
-myList = str(response.content).split(',')
+    myList = str(response.content).split(',')
+    print(myList[6] + myList[1] + myList[4])
+
+#matchW = re.search('"isWhitelisted":false', str(response.content))
 
 
-matchW = re.search('"isWhitelisted":false', str(response.content))
-
-print(myList[6] + myList[1] + myList[4])
 
 
