@@ -1,7 +1,7 @@
 import requests
 import re
 
-response = requests.get("https://www.abuseipdb.com/check/51.144.121.104/json?key=IoGutYJumuBDzJkWq54qR5Mzpltpg3JjAUQ32JSY&days=30")
+response = requests.get("https://www.abuseipdb.com/check/51.144.121.104/json?key=&days=30")
 
 print(response.content)
 
