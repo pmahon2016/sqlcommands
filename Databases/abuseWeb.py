@@ -12,6 +12,6 @@ if "country" in str(response.content):
 
 #matchW = re.search('"isWhitelisted":false', str(response.content))
 
-
+#this is from the imac
 
 
