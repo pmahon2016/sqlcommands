@@ -1,7 +1,7 @@
 import requests
 import re
 
-
+#this has been synced from my laptop
 
 response = requests.get("https://www.abuseipdb.com/check/51.144.121.104/json?key=IoGutYJumuBDzJkWq54qR5Mzpltpg3JjAUQ32JSY&days=30")
 
