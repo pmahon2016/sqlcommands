@@ -1,5 +1,9 @@
 import requests
 
+import re
+
+
+#this has been synced from my laptop
 
 
 
@@ -15,6 +19,14 @@ def get_abuse_status(myipadd ):
 
 #matchW = re.search('"isWhitelisted":false', str(response.content))
 
+
 #this is from the imac compouter new new branch
 
 get_abuse_status("10.191.195.186")
+
+
+print(myList[6] + myList[1] + myList[4])
+
+
+
+
