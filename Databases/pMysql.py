@@ -4,6 +4,8 @@ db = MySQLdb.connect('localhost','pace', 'pace123', 'BMC')
 
 cursor = db.cursor()
 
+#one thing I want to add
+
 # New database branch
 
 sqltbl = """
