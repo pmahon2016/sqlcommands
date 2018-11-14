@@ -1,12 +1,11 @@
 import MySQLdb
 
-db = MySQLdb.connect('localhost','pace', 'pace123', 'BMC')
+db = MySQLdb.connect('localhost','root', 'password','test')
 
 cursor = db.cursor()
 
-#one thing I want to add
 
-# New database branch
+
 
 sqltbl = """
 
